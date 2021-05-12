@@ -19,3 +19,11 @@ console.log(typeof country);
 // assignment let, const and var
 const language = "Macedonian";
 // language = "Makedonski";
+
+// assignment Basic Operators
+console.log(population / 2);
+console.log(population++);
+console.log(population > 6);
+console.log(population < 33);
+let description1 = country + " is in " + continent + ", and its " + population + " million people speak " + language;
+console.log(description1);
