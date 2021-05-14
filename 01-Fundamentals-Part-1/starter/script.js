@@ -179,6 +179,7 @@ multiple
 lines`);
 */
 
+/*
 // Taking Decisions: if / else Statements
 const age = 15;
 
@@ -198,3 +199,4 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/

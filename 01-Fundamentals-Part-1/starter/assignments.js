@@ -30,3 +30,12 @@ let description1 = country + " is in " + continent + ", and its " + population +
 
 // assignment Strings and Template Literals
 // console.log(`${country} is in ${continent}, and its ${population} million people speak ${language}`);
+
+// assignment Taking Decisions: if / else Statements
+// population = 13;
+// population = 130;
+if (population >= 33) {
+    console.log(`${country}'s populations is above average.`);
+} else {
+    console.log(`${country}'s population is ${33 - population} million below average.`);
+}
