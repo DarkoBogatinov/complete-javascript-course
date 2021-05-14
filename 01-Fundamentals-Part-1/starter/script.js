@@ -155,6 +155,7 @@ console.log("Johns BMI " + bmiJohn);
 console.log("Is Marks BMI higher than Johns: " + markHigherBMI);
 */
 
+/*
 // Strings and Template Literals
 const firstName = "Jonas";
 const job = "teacher";
@@ -176,3 +177,4 @@ lines');
 console.log(`String with
 multiple
 lines`);
+*/

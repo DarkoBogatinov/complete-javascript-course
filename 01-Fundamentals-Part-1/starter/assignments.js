@@ -27,3 +27,6 @@ const language = "Macedonian";
 // console.log(population < 33);
 let description1 = country + " is in " + continent + ", and its " + population + " million people speak " + language;
 // console.log(description1);
+
+// assignment Strings and Template Literals
+console.log(`${country} is in ${continent}, and its ${population} million people speak ${language}`);
