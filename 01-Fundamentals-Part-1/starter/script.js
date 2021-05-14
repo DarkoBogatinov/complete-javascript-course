@@ -121,6 +121,7 @@ TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 */
 
+/*
 // TEST DATA 1
 //1
 let massMark = 78;
@@ -152,3 +153,26 @@ markHigherBMI = bmiMark > bmiJohn;
 console.log("Marks BMI " + bmiMark);
 console.log("Johns BMI " + bmiJohn);
 console.log("Is Marks BMI higher than Johns: " + markHigherBMI);
+*/
+
+// Strings and Template Literals
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = "1991";
+const year = 2037;
+
+const jonas = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String with
+multiple
+lines`);
